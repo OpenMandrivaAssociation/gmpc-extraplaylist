@@ -34,5 +34,5 @@ An extra playlist plugin for gmpc.
 
 %files
 %defattr(-,root,root)
-%{_datadir}/gmpc/plugins/libextraplaylist.la
-%{_datadir}/gmpc/plugins/libextraplaylist.so
+%{_libdir}/gmpc/plugins/libextraplaylist.la
+%{_libdir}/gmpc/plugins/libextraplaylist.so
