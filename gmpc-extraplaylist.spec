@@ -1,6 +1,6 @@
 Summary:	An extra playlist plugin for gmpc
 Name:		gmpc-extraplaylist
-Version:	0.18.0
+Version:	0.19.0
 Release:	%mkrel 1
 License:	GPLv2+
 Group:		Sound
@@ -11,6 +11,7 @@ BuildRequires:	libxml2-devel
 BuildRequires:	libglade2.0-devel
 BuildRequires:	gtk+2-devel >= 2.4
 BuildRequires:	gmpc-devel >= 0.15.98
+BuildRequires:	intltool
 Requires:	gmpc
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
